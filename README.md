@@ -33,7 +33,8 @@ Dalam pengelolaan logistik, keterlambatan pengiriman menjadi salah satu kendala 
 
 Alur penyelesaian untuk memprediksi keterlambatan pengiriman produk dijelaskan dalam bagan berikut:  
 
-```mermaid
+mermaid
+```
 graph TD
     A[Pengumpulan Data Logistik] --> B[Preprocessing Data]
     B --> C[Analisis Eksplorasi Data (EDA)]
