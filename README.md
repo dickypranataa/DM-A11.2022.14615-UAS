@@ -37,9 +37,9 @@ Alur penyelesaian untuk memprediksi keterlambatan pengiriman produk dijelaskan d
 ```mermaid
 graph TD
     A[Pengumpulan Data Logistik] --> B[Preprocessing Data]
-    B --> C[Analisis Eksplorasi Data (EDA)]
+    B --> C[Analisis Eksplorasi Data EDA]
     C --> D[Feature Engineering]
-    D --> E[Pembagian Dataset (Train/Test Split)]
+    D --> E[Pembagian Dataset Train Test Split]
     E --> F{Pemilihan Algoritma}
     F --> G[XGBoost]
     F --> H[LightGBM]
