@@ -191,37 +191,28 @@ Evaluasi performa model dilakukan untuk memastikan model yang dikembangkan dapat
 1. **Akurasi**  
    Akurasi mengukur seberapa sering model memprediksi label yang benar. Ini dihitung sebagai rasio jumlah prediksi yang benar terhadap total prediksi yang dibuat. Akurasi tinggi menunjukkan model dapat memprediksi dengan baik, namun tidak selalu cukup untuk model dengan ketidakseimbangan kelas yang tinggi.
 
-   \[
-   \text{Akurasi} = \frac{\text{Prediksi Benar}}{\text{Total Prediksi}}
-   \]
+   ![Akurasi](https://latex.codecogs.com/png.latex?\\text{Akurasi}\\ =\\ \\frac{\\text{Prediksi%20Benar}}{\\text{Total%20Prediksi}})
 
 2. **Precision**  
    Precision mengukur seberapa tepat model dalam mengidentifikasi kasus positif. Ini mengukur proporsi prediksi positif yang benar-benar positif. Precision tinggi berarti model jarang menghasilkan prediksi positif yang salah.
 
-   \[
-   \text{Precision} = \frac{\text{True Positive}}{\text{True Positive} + \text{False Positive}}
-   \]
+   ![Precision](https://latex.codecogs.com/png.latex?\\text{Precision}\\ =\\ \\frac{\\text{True%20Positive}}{\\text{True%20Positive}\\ +\\ \\text{False%20Positive}})
 
 3. **Recall (Sensitivitas)**  
    Recall (atau sensitivitas) mengukur seberapa baik model menangkap seluruh kasus positif. Ini dihitung sebagai proporsi kasus positif yang berhasil dideteksi oleh model. Recall tinggi berarti model jarang melewatkan kasus positif.
 
-   \[
-   \text{Recall} = \frac{\text{True Positive}}{\text{True Positive} + \text{False Negative}}
-   \]
+   ![Recall](https://latex.codecogs.com/png.latex?\\text{Recall}\\ =\\ \\frac{\\text{True%20Positive}}{\\text{True%20Positive}\\ +\\ \\text{False%20Negative}})
 
 4. **F1-Score**  
    F1-Score adalah rata-rata harmonis dari Precision dan Recall. F1-Score memberikan gambaran yang lebih seimbang antara Precision dan Recall, terutama ketika ada ketidakseimbangan kelas. F1-Score sangat berguna ketika kita ingin menyeimbangkan kedua metrik ini.
 
-   \[
-   F1-Score = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-   \]
+   ![F1-Score](https://latex.codecogs.com/png.latex?F1\\text{-}Score\\ =\\ 2\\ \\times\\ \\frac{\\text{Precision}\\ \\times\\ \\text{Recall}}{\\text{Precision}\\ +\\ \\text{Recall}})
 
 5. **ROC-AUC Score**  
    ROC-AUC (Receiver Operating Characteristic - Area Under Curve) mengukur kualitas model dalam membedakan antara kelas positif dan negatif. Nilai AUC mendekati 1 menunjukkan bahwa model memiliki kemampuan yang sangat baik untuk memisahkan kelas, sedangkan nilai mendekati 0.5 menunjukkan model yang buruk.
 
-   \[
-   \text{AUC} = \int \text{ROC Curve}
-   \]
+   ![AUC](https://latex.codecogs.com/png.latex?\\text{AUC}\\ =\\ \\int\\ \\text{ROC%20Curve})
+
 
 6. **Confusion Matrix**  
    Confusion Matrix adalah matriks yang digunakan untuk menggambarkan kinerja model klasifikasi dengan menunjukkan jumlah prediksi yang benar dan salah dalam kategori positif dan negatif. Ini membantu untuk menganalisis kesalahan prediksi lebih mendalam, seperti jumlah **False Positives** dan **False Negatives**.
