@@ -232,11 +232,11 @@ Evaluasi performa model dilakukan untuk memastikan model yang dikembangkan dapat
 
 ### 📊 Hasil Evaluasi Model
 
-| **Model**                             | **Akurasi** | **Precision** | **Recall** | **F1-Score** | **ROC-AUC** |  
-|---------------------------------------|-------------|---------------|------------|--------------|-------------|  
-| XGBoost (Tanpa Threshold Adjustment)  | 0.85        | 0.80          | 0.75       | 0.77         | 0.88        |  
-| XGBoost (Dengan Threshold Adjustment) | 0.92        | 0.89          | 0.85       | 0.87         | 0.94        |  
-| LightGBM                              | 0.93        | 0.91          | 0.87       | 0.89         | 0.95        |
+| Model                               | Akurasi | Precision | Recall | F1-Score | ROC-AUC |
+|-------------------------------------|---------|-----------|--------|----------|---------|
+| XGBoost (Tanpa Threshold Adjustment)| 0.96    | 0.96      | 0.96   | 0.96     | 0.98    |
+| XGBoost (Dengan Threshold Adjustment)| 0.95    | 0.95      | 0.95   | 0.95     | 0.95    |
+| LightGBM                            | 0.96    | 0.96      | 0.96   | 0.96     | 0.98    |
 
 ---
 
