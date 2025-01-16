@@ -242,7 +242,14 @@ Evaluasi performa model dilakukan untuk memastikan model yang dikembangkan dapat
 
 
 ### 📌 Model Terbaik  
-Model terbaik berdasarkan evaluasi performa adalah **LightGBM**. Model ini memberikan hasil terbaik pada semua metrik evaluasi, dengan **Akurasi** 0.93, **Precision** 0.91, **Recall** 0.87, **F1-Score** 0.89, dan **ROC-AUC** 0.95. Model ini menunjukkan performa yang sangat baik dalam memprediksi keterlambatan pengiriman, dengan kemampuan untuk memisahkan kelas dengan akurat.
+Model terbaik berdasarkan evaluasi performa adalah **LightGBM**. Model ini memberikan hasil terbaik pada semua metrik evaluasi, dengan:  
+- **Akurasi:** 0.96  
+- **Precision:** 0.96  
+- **Recall:** 0.96  
+- **F1-Score:** 0.96  
+- **ROC-AUC:** 0.98  
+
+Model ini menunjukkan performa yang sangat baik dalam memprediksi keterlambatan pengiriman, dengan kemampuan untuk membedakan kelas positif dan negatif secara akurat.
 
 ---
 
@@ -261,9 +268,9 @@ Untuk membantu visualisasi hasil evaluasi model, berikut ini beberapa grafik yan
 ## 📚 Diskusi Hasil dan Kesimpulan
 
 ### 💡 Diskusi Hasil
-Berdasarkan hasil evaluasi model, **LightGBM** muncul sebagai model terbaik dengan kinerja terbaik pada semua metrik evaluasi, yaitu **Akurasi** 0.93, **Precision** 0.91, **Recall** 0.87, **F1-Score** 0.89, dan **ROC-AUC** 0.95. Model ini menunjukkan kemampuannya dalam memprediksi keterlambatan pengiriman dengan baik, dan sangat efektif dalam membedakan antara kelas positif dan negatif, sebagaimana tercermin dalam nilai ROC-AUC yang tinggi.
+Berdasarkan hasil evaluasi model, **LightGBM** muncul sebagai model terbaik dengan kinerja terbaik pada semua metrik evaluasi, yaitu **Akurasi** 0.96, **Precision** 0.96, **Recall** 0.96, **F1-Score** 0.96, dan **ROC-AUC** 0.98. Model ini menunjukkan kemampuannya dalam memprediksi keterlambatan pengiriman dengan baik, dan sangat efektif dalam membedakan antara kelas positif dan negatif, sebagaimana tercermin dalam nilai ROC-AUC yang tinggi.
 
-Model **XGBoost (Dengan Threshold Adjustment)** juga menunjukkan performa yang baik, dengan akurasi mencapai 0.92, namun **LightGBM** memberikan hasil yang lebih unggul dalam hal precision dan recall. Sementara itu, model **XGBoost (Tanpa Threshold Adjustment)** memiliki performa yang lebih rendah dibandingkan kedua model lainnya, meskipun masih memberikan hasil yang memadai.
+Model **XGBoost (Dengan Threshold Adjustment)** juga menunjukkan performa yang baik, dengan akurasi mencapai 0.95, namun **LightGBM** memberikan hasil yang lebih unggul dalam hal precision dan recall. Sementara itu, model **XGBoost (Tanpa Threshold Adjustment)** memiliki performa yang lebih rendah dibandingkan kedua model lainnya, meskipun masih memberikan hasil yang memadai.
 
 Evaluasi metrik seperti **F1-Score** dan **Precision-Recall** menunjukkan bahwa model ini dapat diandalkan dalam memprediksi keterlambatan pengiriman tanpa menghasilkan banyak kesalahan jenis **False Positive** atau **False Negative**. Metrik ini sangat penting dalam konteks prediksi keterlambatan pengiriman, di mana kesalahan prediksi bisa berdampak langsung pada kepuasan pelanggan dan operasional perusahaan.
 
